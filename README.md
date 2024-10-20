@@ -1,66 +1,77 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+NAMA : DIMAS PERMANA
+NIM : 362358302004
+KELAS : 2A TRPL
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Praktikum Interoperabilitas: Membuat API Toko Buku dengan Laravel 11 dan Testing Menggunakan Postman
 
-## About Laravel
+A.	GET Semua Kategori
+•	Method: GET
+•	URL: http://localhost:8000/api/kategoris
+•	Klik Send untuk melihat hasil
+![Screenshot 2024-10-20 002422](https://github.com/user-attachments/assets/bce83b28-89e8-4f10-8126-1f362824b9ca)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+B.	POST Tambah Kategori Baru
+•	Method: POST
+•	URL: http://localhost:8000/api/kategoris
+•	Body 
+![Screenshot 2024-10-20 002445](https://github.com/user-attachments/assets/da1a2177-44e6-4fa2-84c0-154059c15ca4)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+C.	GET Semua Buku
+•	Method: GET
+•	URL: http://localhost:8000/api/bukus
+•	Klik Send
+![Screenshot 2024-10-20 002856](https://github.com/user-attachments/assets/6c033d1c-3f2e-4db5-8ff6-6ccd0a0f0543)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+D.	POST Tambah Buku Baru
+•	Method: POST
+•	URL: http://localhost:8000/api/bukus
+•	Body:
+![Screenshot 2024-10-20 002935](https://github.com/user-attachments/assets/ec7bfef2-2cac-4109-b424-7696437ad26f)
 
-## Learning Laravel
+E.	GET Buku Berdasarkan ID
+•	Method: GET
+•	URL: http://localhost:8000/api/bukus/1
+•	Klik Send.
+![get id](https://github.com/user-attachments/assets/bc565f29-5d72-4b09-b5c7-562995ea79ba)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+F.	PUT Update Data Buku
+•	Method: PUT
+•	URL: http://localhost:8000/api/bukus/1
+•	BODY
+![put ](https://github.com/user-attachments/assets/d9820b60-afbe-4832-8de8-e6e979624af1)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+G.	DELETE Hapus Buku
+•	Method: DELETE
+•	URL: http://localhost:8000/api/bukus/1
+•	Klik Send.
+![delete](https://github.com/user-attachments/assets/ea597082-d03e-4ad0-ac41-d875dd77baf9)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+TUGAS MAHASISWA
+1.	Tambahkan Validasi:
+o	Nama buku tidak boleh kosong.
+o	Harga minimal Rp 1.000.
+![code](https://github.com/user-attachments/assets/53348bda-0bab-4b9c-91ed-43ad8769794c)
 
-## Laravel Sponsors
+2.	Rancang Endpoint Baru:
+Buatlah satu endpoint tambahan untuk sistem toko buku, misalnya, endpoint untuk mencari buku berdasarkan kategori atau judul. Tantangan: Apa pertimbangan yang harus Anda buat saat merancang endpoint ini? Pertimbangkan aspek performa, skalabilitas, dan pengalaman pengguna.
+![code-snapshot](https://github.com/user-attachments/assets/0c2501fc-1e61-496f-bcd1-eeaf594c5abf)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+>INI UNTUK CODE DI BAGIAN api.php
+![code-snapshot1](https://github.com/user-attachments/assets/c9870d71-77cb-4f6e-b825-91cb34b698c6)
 
-### Premium Partners
+>HASILNYA:
+ini bagian nambah data buku dengan post
+![tugas](https://github.com/user-attachments/assets/4844d635-7ed5-4689-8536-344644318cbe)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+ini untuk bagian cari buku dengan http://localhost:8000/api/bukus/search/Naruto
+![tugas judul](https://github.com/user-attachments/assets/0aae198e-85b7-4e6a-884b-f5087b3b24b6)
 
-## Contributing
+3.	Uji API Secara Publik:
+o	Gunakan ngrok atau sejenisnya untuk membuka API ke internet.
+>ini bagian di ngrok
+![ngrok](https://github.com/user-attachments/assets/84a72163-2c39-45fc-9910-558194658972)
+>ini bagian link untuk ngrok https://7ee6-140-213-191-40.ngrok-free.app/
+>ini hasilnya
+![laravel](https://github.com/user-attachments/assets/697c2c3f-2e00-402b-8250-4ecc4eeac133)
+![Screenshot 2024-10-20 154955](https://github.com/user-attachments/assets/e52c1d73-9689-417b-ae1f-3ddb710cd754)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
