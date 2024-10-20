@@ -1,6 +1,6 @@
-*NAMA : DIMAS PERMANA
+NAMA : DIMAS PERMANA
 NIM : 362358302004
-KELAS : 2A TRPL*
+KELAS : 2A TRPL
 
 Praktikum Interoperabilitas: Membuat API Toko Buku dengan Laravel 11 dan Testing Menggunakan Postman
 
